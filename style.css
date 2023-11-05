@@ -3,7 +3,6 @@ html{
 }
 
 
-
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 40px;
@@ -16,7 +15,10 @@ body {
 h1{
     font-size: 3em;
     margin: 0;
-
+}
+h2{
+    font-size: 2em;
+    padding: 20px;
 }
 p{
     line-height: 1.4em;
@@ -29,7 +31,7 @@ p{
 
 .blog-post{
     border-bottom: 1px dotted #ccc;
-
+    
 }
 
 .blog-image{
