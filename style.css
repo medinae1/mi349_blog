@@ -10,7 +10,7 @@ body {
     padding: 40px;
     color: #242424;
     border-top: 10px solid #242424;
-    background: #fff;
+    background: #fbfdfe;
 }
 
 h1{
@@ -31,3 +31,8 @@ p{
     border-bottom: 1px dotted #ccc;
 
 }
+
+.blog-image{
+    border-radius: 50px;
+}
+
