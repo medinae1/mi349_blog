@@ -33,6 +33,15 @@ p{
 }
 
 .blog-image{
+
     border-radius: 50px;
+    width: 400px;
+    height: 300px;
 }
 
+article{
+    background: #ecf3f8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+}
