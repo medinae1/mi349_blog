@@ -28,6 +28,10 @@ h3{
     border-bottom: 5px solid#7e7c7c; 
     border-radius: 10px;
 }
+h4{
+    font-size: 1em;
+}
+
 p{
     line-height: 1.4em;
 
@@ -77,6 +81,9 @@ article{
 
 .gallery-image{
     border-radius: 50px;
+    
+}
+.gallery-blurb{
     
 }
 
