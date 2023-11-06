@@ -25,6 +25,8 @@ p{
 
 }
 #blog{
+    display: flex;
+    flex-direction: column;
     border-top: 1px dotted #ccc;
 
 }
@@ -46,4 +48,8 @@ article{
     padding: 20px;
     margin: 20px;
     border-radius: 50px;
+}
+
+header{
+    position: sticky;
 }
