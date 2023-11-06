@@ -62,6 +62,7 @@ article{
     padding: 20px;
     margin: 20px;
     border-radius: 50px;
+    border-bottom: 5px solid#7e7c7c; 
 }
 
 
@@ -77,10 +78,6 @@ article{
 .gallery-image{
     border-radius: 50px;
     
-}
-.gallery-blurb{
-
-    border-bottom: 5px solid#7e7c7c; 
 }
 
 article:nth-oftype(1){
