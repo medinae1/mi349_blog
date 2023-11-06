@@ -18,7 +18,15 @@ h1{
 }
 h2{
     font-size: 2em;
+    margin: 20px;
     padding: 20px;
+}
+h3{
+    
+    background: #d8e7e6;
+    padding: 10px;
+    border-bottom: 5px solid#7e7c7c; 
+    border-radius: 10px;
 }
 p{
     line-height: 1.4em;
@@ -29,6 +37,12 @@ p{
     flex-direction: column;
     border-top: 1px dotted #ccc;
 
+}
+#gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
 .blog-post{
@@ -59,6 +73,25 @@ article{
     top:0;
     border-radius: 50px;
 }
-.sketch{
+
+.gallery-image{
+    border-radius: 50px;
     
+}
+.gallery-blurb{
+
+    border-bottom: 5px solid#7e7c7c; 
+}
+
+article:nth-oftype(1){
+    flex: 33%
+}
+
+article:nth-oftype(2){
+    flex: 66%
+
+}
+
+article:nth-oftype(3){
+    flex: 33%
 }
